@@ -1,0 +1,14 @@
+version = 0.1
+[default.package.parameters]
+stack_name = "sam-app"
+s3_bucket = "jayambar-terraform-backend"
+s3_prefix = "pravin/sam-app"
+region = "us-east-1"
+
+[default.deploy.parameters]
+stack_name = "sam-app"
+s3_bucket = "jayambar-terraform-backend"
+s3_prefix = "pravin/sam-app"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_NAMED_IAM"
