@@ -242,4 +242,7 @@ $RECYCLE.BIN/
 */build/*
 
 # End of https://www.gitignore.io/api/osx,linux,python,windows,pycharm,visualstudiocode
-./dustbin/*
+dustbin/
+.aws-sam/
+.idea/
+.pytest_cache/
