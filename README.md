@@ -1,4 +1,4 @@
-# s3-upload-compliance
+# Save User Data into Dynamodb & Test cases
 
 ## Requirements
 1. AWS lambda function that saves user details into dynamodb.
