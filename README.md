@@ -48,7 +48,7 @@ Update **iac/backend.tf** with
 bucket = "your-s3-bucket-name"
 ```
 
-## 4. Deploy lambda functions
+## 4. Deploy lambda functions to AWS 
 ```bash
 sam build
 sam deploy
